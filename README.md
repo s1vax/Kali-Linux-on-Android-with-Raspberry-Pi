@@ -44,7 +44,7 @@ Ya configurada nuestra tarjeta SD, la introduciremos en nuestra placa Raspberry 
 
 ### 🗃️ 3. *Android Apps Installation*
 Para completar la conexion entre estos 2 dispositivos necesitaremos las siguientes aplicaciones Android:
-- Descargar `Termux`, que nos sirve de terminal de comandos para controlar la Raspberry Pi desde nuestro dispositivo Android. Con esta app actualizaremos la terminal en ambos dispositivos y haremos la conexion ssh. Los pasos a seguir una vez instalada son:
+- Descargar `Termux`, que nos sirve de terminal de comandos para controlar la Raspberry Pi desde nuestro dispositivo Android (con esta app nos bastaria, si tenemos conocimientos de comandos Linux, para manejar la Raspberry Pi). Con esta app actualizaremos la terminal en ambos dispositivos y haremos la conexion ssh. Los pasos a seguir una vez instalada son:
 
   --> En el dispositivo Android ejecutar los siguientes comandos:
     * `pkg update && pkg upgrade` *(actualizamos terminal)*
@@ -55,9 +55,9 @@ Para completar la conexion entre estos 2 dispositivos necesitaremos las siguient
     * `sudo apt update` *(actualizamos terminal)*
     * `sudo apt install tightvncserver` *(descargamos el servicio de VNC en la placa)*
     * `vncserver` *(ejecutamos el servicio de VNC en la Raspberry Pi)*
- 
-
-
     
-- Descargar `VNC`, que sirve para poder usar nuestro dispositivo Android como monitor de la Raspberry Pi
+- Luego, descargamos `VNC`, que sirve para poder usar nuestro dispositivo Android como monitor de la Raspberry Pi.
+    * Para esto solo debemos entrar a la aplicacion en nuestro dispositivo, registrarnos con una cuenta, seguido a ello tocar en el simbolo `+`, y colocar un nombre cualquiera y la direccion IP de nuestra Raspberry Pi con un `:1` al final, es decir, (en mi caso de red wifi) `XX.XX.XXX.XX:1`
+
+- Y listo ✅ ya podremos ver como una computadora en nuestro dispositivo Android
 
