@@ -59,7 +59,7 @@ To complete the connection between these two devices, we will need the following
 - Next, we downloaded `VNC`, which allows us to use our Android device as a monitor for the Raspberry Pi.
     * To do this, we just need to enter the application on our device, register with an account, then tap on the `+` symbol, and enter any name and the IP address of our Raspberry Pi with a `:1` at the end, that is, (in my case of wifi network) `XX.XX.XXX.XX:1`.
 
-- Y listo ✅ ya podremos ver como una computadora a nuestra Raspberry Pi con Kali Linux en nuestro dispositivo Android.
+- And that's it! ✅ Now we can see our Raspberry Pi with Kali Linux as a computer on our Android device.
 
-### Espero les haya servido y gustado, esto se realiza con fines educativos. Si te intereso, no olvides de dejar tu estrella ⭐ Saludos y los mejores exitos!!!
+### I hope you found this helpful and enjoyable. This is for educational purposes. If you found it useful, please leave a star ⭐ Best wishes and much success!
 
