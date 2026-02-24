@@ -61,3 +61,5 @@ Para completar la conexion entre estos 2 dispositivos necesitaremos las siguient
 
 - Y listo ✅ ya podremos ver como una computadora en nuestro dispositivo Android.
 
+### Espero les haya servido y gustado, esto se realiza con fines educativos. Si te intereso, no olvides de dejar tu estrella ⭐ Saludos y los mejores exitos!!!
+
