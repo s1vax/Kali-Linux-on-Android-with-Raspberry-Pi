@@ -67,5 +67,5 @@ To complete the connection between these two devices, we will need the following
 
 - And that's it! ✅ Now we can see our Raspberry Pi with Kali Linux as a computer on our Android device.
 
-### I hope you found this helpful and enjoyable. This is for educational purposes. If you found it useful, please leave a star ⭐ Best wishes and much success!
+### I hope you found this helpful and enjoyable. This is for educational purposes. If you found it useful, leave a star ⭐ Best wishes and much success!
 
