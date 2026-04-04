@@ -9,7 +9,7 @@
 
 ### 🛒 Things we need
 First, we need the following components to carry out the project:
-- `Raspberry Pi Zero 2W`
+- `Raspberry Pi Zero 2W` or it could be also any Raspberry including (`Raspberry Pi Zero V1`, `Pi 3`, `Pi 4`, etc)
 - `Power cable` for the Raspberry Pi
 - `Raspberry Pi Imager` software for PC
 - `SD card` (any size, 64GB recommended) for the Raspberry Pi
