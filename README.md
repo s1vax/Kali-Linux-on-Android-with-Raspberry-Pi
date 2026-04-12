@@ -10,10 +10,10 @@
 ### 🙌 Pueden traducir este y los demas repositorios, con el traductor de google de su navegador web o con alguna otra extensión 🙌
 
 ---
+
 ### 🛒 Things we need
 First, we need the following components to carry out the project:
-- A `PC` for configuration & (if we want/for test) power
-- `Micro USB cable`
+- A `PC` for configuration
 - `Raspberry Pi Zero 2W` or it could be also any Raspberry including (`Raspberry Pi Zero V1`, `Pi 3`, `Pi 4`, etc)
 - `Power cable` for the Raspberry Pi
 - `Raspberry Pi Imager` software for PC
