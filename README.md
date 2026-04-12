@@ -12,7 +12,7 @@
 ---
 ### 🛒 Things we need
 First, we need the following components to carry out the project:
-- A `PC`
+- A `PC` for configuration & (if we want/for test) power
 - `Micro USB cable`
 - `Raspberry Pi Zero 2W` or it could be also any Raspberry including (`Raspberry Pi Zero V1`, `Pi 3`, `Pi 4`, etc)
 - `Power cable` for the Raspberry Pi
