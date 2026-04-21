@@ -5,13 +5,9 @@
 <img src="https://github.com/user-attachments/assets/0d1251fb-096a-48b1-bab8-cdc030bb3567" width="400">
 </p>
 
----
+<br>
 
-### 🙌 Pueden traducir este y los demas repositorios, con el traductor de google de su navegador web o con alguna otra extensión 🙌
-
----
-
-### 🛒 Things we need
+## 🛒 Things we need
 First, we need the following components to carry out the project:
 - A `PC` for configuration
 - `Raspberry Pi Zero 2W` or it could be also any Raspberry including (`Raspberry Pi Zero V1`, `Pi 3`, `Pi 4`, etc)
@@ -31,27 +27,40 @@ First, we need the following components to carry out the project:
 <img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/2e1b3f0f-a52f-40e8-a7bd-dbb78dce595f" />
 </p>
 
----
+<br>
+<br>
 
 # 🔎 Step by step
 ### ⚙️ 1. *Operating System & SD Configuration*
 Once you have everything you need, proceed as follows:
 - Download `Raspberry Pi Imager` to your PC from: https://www.raspberrypi.com/software/. This software allows you to install any operating system on your board; in this case, Kali Linux for the Raspberry Pi Zero 2W.
+
 - Once the app is installed, connect your SD card to an SD card reader and then connect the reader to your computer.
+
 - Return to the Raspberry Pi software and go to the `OS` or "Operating Systems" menu. Select `Other specific-purpose OS` and find `Kali Linux` among the options. Then, search for `Raspberry Pi Zero 2W` (Kali Linux ARM image for the Raspberry Pi Zero 2W).
+
 - Next, we select where we want to install the OS, and click on the SD card holder.
+
 - We assign a hostname to our Raspberry Pi (this hostname is how it will be read when it appears on our cell phone's mobile data network).
+
 - Then we fill in the information about our location and language.
+
 - Following this, it will ask us to complete with the `username` for the Raspberry Pi (it is recommended to put `kali`) and its corresponding password (when we make the ssh connection the username will be placed in: *ssh username@IP*) (in addition, the password will serve to complete the ssh connection, asking for it twice for verification).
+
 - Complete the information for the network connection to be used on the Raspberry Pi (it will ask for the SSID and password of the wifi network to which we will connect) (in my case I used my cell phone's mobile data network).
+
 - Finally, we must select the option to activate `Enable SSH` along with the sub-option of `Use password authentication`, and click `Next`.
+
 - Click on `Write` and wait a few minutes. Once you've done this, your SD card will be configured.
+
+<br>
 
 ### 📟 2. *Raspberry Pi Zero 2 W initialization*
 Once our SD card is configured, we'll insert it into our Raspberry Pi board. Before connecting it to the power supply, we need to make sure we've correctly configured our Wi-Fi network, where our two devices will connect (verify that it's a 2.4 GHz band connection and that the network has the same SSID and password that we entered in the Raspberry Pi installer). With that confirmed, we turn on the Wi-Fi network, wait a few minutes, and then power on our Raspberry Pi board. After a few minutes, the board will appear connected to the network with the `hostname` we assigned in the installer.
 
 👉 ***Important:*** In my case, since I used my mobile data hotspot as my Wi-Fi network, if you use this method, you must be careful when powering the Raspberry Pi and then connecting it to the Wi-Fi network. If you unplug it (remove the power) and plug it back in while the Wi-Fi network is active, Kali Linux generates random MAC addresses during startup, and your mobile data network won't recognize your Raspberry Pi board. Instead of the `hostname` you assigned during the installer, you'll see a different MAC address (and its IP address won't be displayed either). Therefore, to fix this, you must reinstall the `OS` with the same configuration on the SD card and then reinsert it into the development board.
 
+<br>
 
 ### 🗃️ 3. *Android Apps Installation & Execution*
 To complete the connection between these two devices, we will need the following Android applications:
@@ -71,6 +80,8 @@ To complete the connection between these two devices, we will need the following
     * To do this, we just need to enter the application on our device, register with an account, then tap on the `+` symbol, and enter any name and the IP address of our Raspberry Pi with a `:1` at the end. The format is (in my case of my mobile data as my wifi network) `XX.XX.XXX.XX:1`.
 
 - And that's it! ✅ Now we can see our Raspberry Pi with Kali Linux as a computer on our Android device.
+
+<br>
 
 ### I hope you found this helpful and enjoyable. If so, leave a star ⭐ Best wishes and much success!
 
