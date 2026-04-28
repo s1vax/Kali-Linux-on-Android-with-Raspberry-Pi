@@ -30,7 +30,7 @@ First, we need the following components to carry out the project:
 <br>
 <br>
 
-# 🔎 Step by step
+## 🔎 Step by step
 ### ⚙️ 1. *Operating System & SD Configuration*
 Once you have everything you need, proceed as follows:
 - Download `Raspberry Pi Imager` to your PC from: https://www.raspberrypi.com/software/. This software allows you to install any operating system on your board; in this case, Kali Linux for the Raspberry Pi Zero 2W.
