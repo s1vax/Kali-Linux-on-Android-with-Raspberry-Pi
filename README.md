@@ -92,11 +92,11 @@ To complete the connection between these two devices, we will need the following
 
 👉 New bug in Raspberry Imager: When trying to install the Kali Linux operating system on a Raspberry Pi Zero 2W using the Raspberry Pi OS image installer application, a 404 error occurs. This is because, as of April 26, 2026, there are problems with the servers that provide Raspberry Imager with the Kali Linux operating system image.
 
-✅ Solucion? 
+✅ Solution? 
 
- - Descargar una imagen de Kali Linux (ARM) para la Raspberry Pi Zero 2 W (que es de 64 bits) desde la pagina web oficial de Kali Linux.
- - Y luego, instalarla mediante la Raspberry Imager (seleccionando la opcion de instalar un OS personalizado `Use custom`, y clickeando en la imagen del OS que queremos, que debe tener la extension `nombre_del_sistema_operativo_y_version.img.xz`) 
- - Otra app opcional para flashear el OS en la placa es `BalenaEtcher` [opcional]
+ - Download a Kali Linux (ARM) image for the Raspberry Pi Zero 2 W (which is 64-bit) from the official Kali Linux website.
+ - And then, install it using the Raspberry Imager (selecting the option to install a custom OS `Use custom`, and clicking on the image of the OS we want, which must have the extension `nombre_del_sistema_operativo_y_version.img.xz`) 
+ - Another optional app for flashing the OS onto the motherboard is `BalenaEtcher` [optional]
 
 
 <br>
